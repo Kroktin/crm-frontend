@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# CRM Dashboard — React + TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Канбан-доска для управления сделками с real-time синхронизацией.
+
+## Технологии
+- React 18, TypeScript
+- @hello-pangea/dnd (drag & drop)
+- WebSocket (live sync между вкладками)
+- Axios
+
+## Функционал
+- Канбан с колонками: Новые / Переговоры / Закрыто
+- Drag & drop карточек между колонками
+- Real-time обновления через WebSocket
+- 4 KPI-метрики (сумма по этапам)
+- Добавление и удаление сделок
+- Тёмная тема
+
+## Запуск локально
+npm install
+npm start
+# Бэкенд должен быть запущен на localhost:8000
+
+## Деплой
+Vercel — https://crm-frontend-nine-tawny.vercel.app
 
 ## Available Scripts
 
