@@ -8,7 +8,7 @@ import { AddDealModal } from './components/AddDealModal';
 
 function App() {
   const [deals, setDeals] = useState<Deal[]>([]);
-  const [stats, setStats] = useState<Stats | null>(null);
+  const [, setStats] = useState<Stats | null>(null);
   const [wsStatus, setWsStatus] = useState<'connecting' | 'connected' | 'disconnected'>('connecting');
   const [modal, setModal] = useState<{ open: boolean; stage: Stage }>({ open: false, stage: 'new' });
   const wsRef = useRef<WebSocket | null>(null);
